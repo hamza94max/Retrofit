@@ -11,36 +11,33 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/zeker"
-            android:layout_width="match_parent"
+            android:id="@+id/titleTV"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
             android:layout_margin="5sp"
-            android:textColor="#050000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/repeat"
-            android:layout_width="match_parent"
+            android:id="@+id/userIDTV"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_margin="5sp"
-            android:textColor="#050000"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/bless"
+            android:id="@+id/bodyTV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_margin="5sp"
-            android:textColor="#050000"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/zeker" />
+            app:layout_constraintTop_toBottomOf="@+id/titleTV" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>

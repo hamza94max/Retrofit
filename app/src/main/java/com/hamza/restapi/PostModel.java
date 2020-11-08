@@ -2,38 +2,40 @@ package com.hamza.restapi;
 
 public class PostModel {
 
+    private int userId;
+    private int id;
+    private String title;
+    private String body;
 
-    /**
-     * zekr : أَعُوذُ بِاللهِ مِنْ الشَّيْطَانِ الرَّجِيمِ 'الله لا إلـه إلا هو الحي القيوم لا تأخذه سنة ولا نوم له ما في السماوات وما في الأرض من ذا الذي يشفع عنده إلا بإذنه يعلم ما بين أيديهم وما خلفهم ولا يحيطون بشيء من علمه إلا بما شاء وسع كرسيه السماوات والأرض ولا يؤوده حفظهما وهو العلي العظيم' -آية الكرسي,البقرة ,255.
-     * repeat : 1
-     * bless : من قالها حين يصبح أجير من الجن حتى يمسى ومن قالها حين يمسى أجير من الجن حتى يصبح.
-     */
-
-    private String zekr;
-    private int repeat;
-    private String bless;
-
-    public String getZekr() {
-        return zekr;
+    public int getUserId() {
+        return userId;
     }
 
-    public void setZekr(String zekr) {
-        this.zekr = zekr;
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
-    public int getRepeat() {
-        return repeat;
+    public int getId() {
+        return id;
     }
 
-    public void setRepeat(int repeat) {
-        this.repeat = repeat;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getBless() {
-        return bless;
+    public String getTitle() {
+        return title;
     }
 
-    public void setBless(String bless) {
-        this.bless = bless;
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getBody() {
+        return body;
+    }
+
+    public void setBody(String body) {
+        this.body = body;
     }
 }

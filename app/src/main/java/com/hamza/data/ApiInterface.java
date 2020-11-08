@@ -10,8 +10,7 @@ import retrofit2.http.GET;
 public interface ApiInterface {
 
 
-    @GET ("azkar_sabah.json")
-     Call<List<PostModel>> getpost ();
-
+    @GET("posts")
+    public Call<List<PostModel>> getPosts();
 
 }

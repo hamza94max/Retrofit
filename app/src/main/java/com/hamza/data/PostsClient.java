@@ -10,12 +10,12 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class PostsClient {
 
-    private static final String BASE_URL="https://ahegazy.github.io/muslimKit/json/";
+    private static final String BASE_URL="http://jsonplaceholder.typicode.com/";
     private ApiInterface apiInterface ;
     private static PostsClient Instance;
 
 
-    PostsClient() {
+    public PostsClient() {
 
         Retrofit retrofit=new Retrofit.Builder()
                 .baseUrl(BASE_URL)
@@ -31,9 +31,8 @@ public class PostsClient {
         return Instance;
     }
 
-
-    public Call<List<PostModel>> getposts(){
-        return apiInterface.getpost();
+    public Call<List<PostModel>> getPosts(){
+        return apiInterface.getPosts();
     }
 
 

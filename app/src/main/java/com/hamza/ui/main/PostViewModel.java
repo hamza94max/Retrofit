@@ -18,7 +18,7 @@ public class PostViewModel extends ViewModel {
 
     public void getposts(){
 
-        PostsClient.getInstance().getposts().enqueue(new Callback<List<PostModel>>() {
+        PostsClient.getInstance().getPosts().enqueue(new Callback<List<PostModel>>() {
             @Override
             public void onResponse(Call<List<PostModel>> call, Response<List<PostModel>> response) {
 
