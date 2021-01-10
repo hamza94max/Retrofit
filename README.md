@@ -63,6 +63,7 @@ You always need to specify what kind of request method the endpoint expects from
 ## Resources 
 [Retrofit Guide](https://square.github.io/retrofit/#:~:text=Retrofit%20Configuration,are%20turned%20into%20callable%20objects.)<br/>
 [Retrofit tutorial auth](https://futurestud.io/tutorials/android-basic-authentication-with-retrofit) <br/>
+[Login and register connect to server](https://larntech.net/android-retrofit-login-register-using-mysql-server/)<br/>
 [philipplackner videos](https://www.instagram.com/philipplackner_official/)
 
 
